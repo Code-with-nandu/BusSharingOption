@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login</title>
-    <link rel="stylesheet" href="<?php echo base_url('assets\frontend\css\bootstrap.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/frontend/css/bootstrap.css')?>">
     <style>
         body {
              background-color: #f0f0f0;
@@ -58,7 +58,7 @@
         }
     </style>
     <script>
-        var BASE_URL = "<?php echo base_url(); ?>"
+        var BASE_URL = "<?php echo base_url() ?>";
     </script>
 </head>
 <body>
@@ -67,22 +67,25 @@
 <div class="header">Locker Room</div>
     <div class="container">
         <h2 class="text-center">Admin Login</h2>
-        <!-- <form action="login.php" method="POST">  -->
-            <!-- Replace "login.php" with the actual server-side script to handle the login process -->
+
             <div class="form-group">
                 <label for="user_id">User ID:</label>
-                <input type="text" id="email" name="user_id" required>
+                <input type="email" name="email" id="email"  required>
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit" class="login-btn" id="loginButton">Login</button>
-        <!-- </form> -->
+            <button  class="login-btn" id="loginbutton">Login</button>
+        
     </div>
     </div>
+   
+
     <script src="<?php echo base_url('assets/frontend/js/jquery.js') ?>"></script>
     <script src="<?php echo base_url('assets/frontend/js/bootstrap.js') ?>"></script>
     <script src="<?php echo base_url('assets/frontend/js/admin_login.js') ?>"></script>
+   
+</body>
 </body>
 </html>
