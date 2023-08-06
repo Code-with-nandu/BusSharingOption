@@ -27,7 +27,7 @@
   <!-- summernote -->
   <link rel="stylesheet" href="<?php echo base_url()?>assets/admin/plugins/summernote/summernote-bs4.min.css">
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap4.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css"> -->
 
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">

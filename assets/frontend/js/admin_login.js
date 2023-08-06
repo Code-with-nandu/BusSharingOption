@@ -14,6 +14,7 @@ $(document).on("click", "#loginButton", function () {
 		$.post(BASE_URL+"adminlogin/login",obj,function(resp){
 			// console.log(resp);
 			let fb = JSON.parse(resp);
+		//	alert(fb.status)
 			if(fb.status=='true'){
 				window.location.href=BASE_URL+'admin';
 			}else{
